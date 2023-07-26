@@ -130,16 +130,6 @@ li {
     list-style-type: none;
 }
 
-input {
-    width: 470px;
-    height: 70px;
-    border-radius: 20px;
-    border: 0px;
-    margin-bottom: 15px;
-    font-size: 20px;
-    padding-left: 30px;
-}
-
 a {
     color: rgb(173, 172, 172);
     text-decoration: none;
