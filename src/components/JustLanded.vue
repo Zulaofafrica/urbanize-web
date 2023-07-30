@@ -53,10 +53,12 @@ p {
 }
 .explore {
     padding: 20px 32px 20px 32px;
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid #ffffff;
     text-decoration: none;
     color: #ffffff;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    opacity: 80%;
+    background: linear-gradient(16deg, rgba(25, 186, 113, 0.8) 0%, rgba(109, 245, 207, 0.8) 100%);
 }
 
 .exploreTag{

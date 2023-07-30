@@ -80,7 +80,7 @@ h4 {
 .main {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
 }
 
 .main-category {
@@ -88,7 +88,7 @@ h4 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 50px;
     
 }
 
@@ -101,15 +101,19 @@ h4 {
 }
 
 .category img {
-    width: 361px;
-    height: 348px;
+    width: 263px;
+    height: 250px;
     flex-shrink: 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 64px 15px rgba(0, 0, 0, 0.20);
+    border: 1px solid #cadbed;
+    
 }
 
 h3 {
     color: #ffffff;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     width: 355px;
     font-style: normal;
     font-weight: 700;

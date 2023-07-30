@@ -84,7 +84,7 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 150px;
     
 }
 .best-sellers {
@@ -96,15 +96,18 @@ p {
 }
 
 .best-sellers img {
-    width: 614px;
-    height: 576px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 64px 15px rgba(0, 0, 0, 0.20);
+    width: 488px;
+    height: 450px;
     flex-shrink: 0;
 }
 
 .shopNow {
     padding: 20px 40px 20px 40px;
-    background-color: #1966ba;
-    border: 2px solid #ffffff;
+    backdrop-filter: blur(5px);
+    opacity: 80%;
+    background: linear-gradient(16deg, rgba(25, 102, 186, 0.80) 0%, rgba(109, 174, 245, 0.80) 100%);
     border-radius: 15px;
     text-decoration: none;
     color: #ffffff;

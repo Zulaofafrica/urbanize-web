@@ -7,6 +7,7 @@
     <BestSellers />
     <RecentBP />
     <ExploreOOC />
+    <Newsleter />
     <Footer />
   </div>
 </template>
@@ -21,6 +22,7 @@ import BestSellers from '@/components/BestSellers.vue'
 import RecentBP from '@/components/RecentBP.vue'
 import ExploreOOC from '@/components/ExploreOOC.vue'
 import Footer from '@/components/Footer.vue'
+import Newsleter from '@/components/Newsletter.vue'
 
 export default {
   name: 'ShopHome',
@@ -33,6 +35,7 @@ export default {
     RecentBP,
     ExploreOOC,
     Footer,
+    Newsleter,
     
   }
 }

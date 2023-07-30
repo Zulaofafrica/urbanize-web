@@ -1,9 +1,9 @@
 <template>
     <div class="main">
-        <h1>Nike Air VaporMax</h1>
+        <h1>Nike Air <span style="color: #1966ba;">VaporMax</span></h1>
         <p>Futuristic space Men's Shoes designed for comfort</p>
-        <h2>NGN 88,900</h2>
-        <router-link to="/checkout-page">Buy Now></router-link>
+        <h2>₦88,900</h2>
+        <router-link to="/Checkout">Buy Now></router-link>
         <img src="../assets/nike-shoe.png" alt="">
     </div>
 </template>

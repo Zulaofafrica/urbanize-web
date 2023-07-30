@@ -39,16 +39,11 @@
 
             <div class="rightFooter">
                 <div class="socials">
-                    <router-link to="/facebook"><img src="../assets/icons/fb.png" alt=""></router-link>
+                    <router-link to="/instagram"><img src="../assets/icons/ig.png" alt=""></router-link>
                     <router-link to="/twitter"><img src="../assets/icons/tw.png" alt=""></router-link>
                     <router-link to="/tiktok"><img src="../assets/icons/tik.png" alt=""></router-link>
-                    <router-link to="/instagram"><img src="../assets/icons/ig.png" alt=""></router-link>
+                    <router-link to="/facebook"><img src="../assets/icons/fb.png" alt=""></router-link>
                     <router-link to="/linkedin"><img src="../assets/icons/in.png" alt=""></router-link>
-                </div>
-
-                <div class="subscribe">
-                    <input placeholder="Enter Your E-Mail Address" name="EMAIL" type="">
-                    <button @click="">Subscribe</button>
                 </div>
 
                 <div class="weAccept">
@@ -68,7 +63,7 @@
 
 <script setup>
 const footLists = [
-    { id: 1, label: 'About Us', route: "/about"},
+    { id: 1, label: 'About Us', route: "/AboutUs"},
     { id: 2, label: 'Blog', route: "/Blog"},
     { id: 3, label: 'Influencer Program', route: "/influencer-program"},
     { id: 4, label: 'Our Partners', route: "/our-partners"},
@@ -101,43 +96,41 @@ const footListsThree = [
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    gap: 150px;
+    gap: 200px;
 
 }
 .main-footer {
-    background: #2B2B2B;
-    height: 400px;
+    background: #040f1a;
+    height: 350px;
     margin-top: 200px;
     padding: 72px;
     padding-top: 40px;
 }
 
 .footerListGroup {
+    margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-content: flex-start;
-    gap: 50px;
+    gap: 200px;
 
-}
-
-img {
-    height: 25px;
 }
 
 li {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 200%;
     list-style-type: none;
 }
 
 a {
-    color: rgb(173, 172, 172);
+    color: #b0bfce;
     text-decoration: none;
 }
 
 h6 {
     font-size: 15px;
-    color: rgb(173, 172, 172);
+    color: #b0bfce;
     margin-top: -0.5px;
 }
 
@@ -165,7 +158,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .socials {
@@ -173,21 +166,26 @@ button {
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 20px;
-    gap: 30px;
+    gap: 15px;
 }
 
 .socials a img {
-    height: 25px;
+    height: 40px;
 }
 
 .logos {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-top: -40px;
+    margin-top: -25px;
+    gap: 30px;
 }
 .logos img {
-    height: 75px;
+    height: 40px;
+}
+
+hr {
+    border-color: #b0bfce;
 }
 
 </style>

@@ -116,7 +116,7 @@
             <div class="modalProducts">
                 <div class="productlist">
                     <h3>ACCESSORIES</h3>
-                    <li v-for="lifestyle in lifestyles" :lifestyle="lifestyle.id">
+                    <li v-for="lifestyle in lifestyles" :key="lifestyle.id">
                         <router-link :to="lifestyle.route"> {{ lifestyle.label }}</router-link>
                     </li>
                 </div>
@@ -181,7 +181,7 @@
           <img class="rd" src="../assets/icons/bag.svg" alt="">
         </router-link>
 
-        <router-link to="/dashboard">
+        <router-link to="/login">
           <img class="rd" src="../assets/icons/user.svg" alt="">
         </router-link>
       </div>
@@ -264,7 +264,7 @@ const lifestyles = [
     height: 300px;
     background: #F3F3F3;
     padding: 20px;
-    margin-top: -415px;
+    margin-top: -385px;
 }
 
 .modalProducts {
@@ -361,4 +361,7 @@ a {
   color: #000;
 }
 
+.category a:hover {
+  color: #1966ba;
+}
 </style>

@@ -1,18 +1,8 @@
 <template>
-  <ShopHome />
+  <router-view/>
 </template>
 
-<script>
-import ShopHome from './views/ShopHome.vue'
 
-
-export default {
-  name: 'App',
-  components: {
-    ShopHome,
-  }
-};
-</script>
 
 <style>
 body {
